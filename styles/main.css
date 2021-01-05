@@ -16,7 +16,8 @@ body {
      font-weight: 400;
      line-height: 1.7rem;
      color: rgb(106, 106, 106);
-     padding: 3rem;
+    padding: 0rem;
+     margin: 0rem;
      box-sizing: border-box;
     
 }
