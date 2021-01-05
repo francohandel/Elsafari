@@ -1,0 +1,87 @@
+/* media querry */
+@media (max-width: 1024px) {
+    .navbar-nav > li > a {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+}
+}
+@media (max-width: 992px) {
+    .main-header {
+  
+        margin: 2.5rem 0;
+        font-size: 4rem;
+    }
+    .sub-heading {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .main-header {
+  
+        margin: 2rem 0;
+        
+    }
+    .sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+    .button {
+        width: 140px;
+        font-size: 12px;
+    }
+
+    footer h5 {
+        font-size: 1.35rem;
+        
+    
+    }
+    footer p {
+        margin: 1rem 1rem;
+        font-size: 1.3rem;
+    }
+    
+    footer a {
+        
+        font-size: 1.2rem;
+        
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    #carouselExampleCaptions {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 468px) {
+    .card {
+        width: 30rem !important;
+    }
+    .sub-heading {
+        margin-bottom: 0rem;
+        font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+     
+    .card {
+        width: 25rem !important;
+    }
+  }
+  @media (max-width: 360px){
+    .card {
+        width: 20rem !important;
+    }
+    .main-header {
+  
+        margin: 1rem 0;
+        font-size: 3rem;
+    }
+   
+  }
