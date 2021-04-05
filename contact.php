@@ -60,3 +60,4 @@ if(isset($_POST['submit'])) {
       
 } else {
     echo '<p>Something went wrong</p>';
+}
