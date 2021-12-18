@@ -771,8 +771,7 @@
       function subscribe() {
   navigator.serviceWorker.ready
     .then(function(registration) {
-      const vapidPublicKey = "BIN2Jc5Vmkmy-S3AUrcMlpKxJpLeVRAfu9WBqUbJ70SJOCWGCGXKY-Xzyh7HDr6KbRDGYHjqZ06OcS3BjD7uAm8";
-
+      const vapidPublicKey = "BKIoGNwmEWFa5JjiVL2_fl8otN9pWPwua41wOpxn3S5dIkRZ7Tu_I_ilcMXuCT-bW2VEVnyfAil0XaWXzUfXIZ4";
       return registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(vapidPublicKey),
